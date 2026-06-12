@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Τα δικά μας χρώματα για το Habit Tracker -->
+    <color name="paper_background">#F3ECE5</color> <!-- Απαλό μπεζ/ροζ για το χαρτί -->
+    <color name="ink_dark">#2B2B2B</color>         <!-- Σκούρο γκρι/μαύρο για το μελάνι -->
+    <color name="month_blue">#5E6D82</color>       <!-- Μπλε/Γκρι για τους μήνες -->
+    <color name="header_red">#9A3333</color>       <!-- Κόκκινο για τον τίτλο -->
+</resources>

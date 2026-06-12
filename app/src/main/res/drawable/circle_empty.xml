@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Το περίγραμμα του κύκλου -->
+    <stroke
+        android:width="2dp"
+        android:color="#B5A89E" /> <!-- Ένα απαλό γκρι/καφέ χρώμα που ταιριάζει με το χαρτί -->
+    <!-- Το εσωτερικό του κύκλου (διάφανο) -->
+    <solid android:color="@android:color/transparent" />
+</shape>

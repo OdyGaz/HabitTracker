@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="4dp">
+
+    <!-- Περιεχόμενο Σειράς (Όνομα & Κύκλοι) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Στήλη Ονόματος Συνήθειας (Αριστερά - Σταθερό πλάτος 120dp) -->
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="12dp">
+
+            <!-- Όνομα Συνήθειας -->
+            <TextView
+                android:id="@+id/textHabitName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="exercise"
+                android:textColor="@color/ink_dark"
+                android:fontFamily="@font/inkfree"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:paddingStart="4dp" />
+
+            <!-- Κόκκινο "x" για διαγραφή (Πάνω Δεξιά) -->
+            <TextView
+                android:id="@+id/btnDeleteHabit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="x"
+                android:textColor="@color/header_red"
+                android:fontFamily="@font/inkfree"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:background="?attr/selectableItemBackground" />
+
+        </RelativeLayout>
+
+        <!-- Container για τους 31 Κύκλους (Δεξιά) -->
+        <LinearLayout
+            android:id="@+id/circlesContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <!-- Λεπτή οριζόντια γραμμή τετραδίου -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#D1C6BB" />
+
+</LinearLayout>
